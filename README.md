@@ -9,10 +9,10 @@ Acest folder conține versiuni HTML statice, autonome (fără JavaScript, fără
 
 ## Ce NU s-a făcut
 
-- **Nu au fost publicate nicăieri.** Sunt fișiere locale, fără nicio adresă publică.
+- **Publicate (Etapa 4)** la https://seaduna.github.io/se-aduna-legal/ — repository GitHub `SeAduna/se-aduna-legal`.
 - **Nu a fost cumpărat niciun domeniu.**
 - **Nu a fost creat niciun cont extern** (GitHub, Cloudflare, Netlify, Google, etc.).
-- **Nu a fost inventată nicio informație** — identitatea operatorului, adresa, e-mailul de contact și data publicării rămân marcate `USER INPUT REQUIRED`, vizibil, direct în pagină (chenar galben).
+- **Nu a fost inventată nicio informație.** Numele operatorului (Alexandru Dan) și e-mailul de contact (contimac2024@gmail.com) au fost furnizate de utilizator (Etapa 5) și introduse. Adresa poștală rămâne intenționat nepublicată (minimizare a datelor). Data publicării rămâne `USER INPUT REQUIRED`.
 - **Nu au fost eliminate marcajele `REQUIRES LEGAL REVIEW`** — apar vizibil, într-un chenar albastru, exact ca în documentele Markdown sursă.
 
 ## Sursa de adevăr rămâne Markdown-ul
