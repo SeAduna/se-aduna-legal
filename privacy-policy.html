@@ -23,7 +23,6 @@
   .meta{ color:var(--muted); font-size:0.9rem; margin-bottom:2em; }
   .placeholder{ background:var(--note-bg); border:1px solid var(--note-border); color:var(--note-fg); padding:2px 6px; border-radius:4px; font-weight:600; font-size:0.95em; }
   .legal-note{ background:var(--legal-bg); border-left:4px solid var(--legal-border); color:var(--legal-fg); padding:0.8em 1em; margin:1em 0; border-radius:0 6px 6px 0; font-size:0.95em; }
-  .draft-banner{ background:var(--note-bg); border:1px solid var(--note-border); color:var(--note-fg); padding:1em 1.2em; border-radius:8px; margin-bottom:2em; font-size:0.95em; }
   ul{ padding-left:1.3em; }
   a{ color:inherit; }
   footer{ color:var(--muted); font-size:0.85rem; margin-top:3em; border-top:1px solid var(--border); padding-top:1em; }
@@ -32,12 +31,7 @@
 <body>
 <div class="wrap">
 
-<div class="draft-banner">
-  <strong>Notă internă — nu face parte din politica publicată:</strong> acest document este publicat public (Etapa 4) la https://seaduna.github.io/se-aduna-legal/privacy-policy.html, dar NU este finalizat din punct de vedere legal — câmpurile rămase marcate <span class="placeholder">USER INPUT REQUIRED</span> trebuie completate, iar punctele marcate ca notă legală trebuie confirmate de un consultant juridic. Nimic din acest fișier nu este o declarație de conformitate legală.
-</div>
-
 <h1>Politica de confidențialitate — Se Adună</h1>
-<p class="meta"><strong>Ultima actualizare:</strong> <span class="placeholder">USER INPUT REQUIRED — data publicării</span></p>
 
 <p>Această Politică de confidențialitate descrie cum funcționează aplicația mobilă <strong>Se Adună</strong> („Aplicația") din perspectiva datelor utilizatorului. Aplicația este destinată calculului matematic al costului acumulat al unor obiceiuri de cheltuire, pe baza datelor introduse chiar de utilizator.</p>
 
@@ -45,7 +39,7 @@
 <p>Aplicația este publicată de o persoană fizică, nu de o companie (SRL/PFA).</p>
 <ul>
   <li>Nume operator: Alexandru Dan</li>
-  <li>Adresă de contact / corespondență: nepublicată — nu este solicitată public de Apple/Google pentru o aplicație gratuită, fără monetizare (decizie de minimizare a datelor, Etapa 5)</li>
+  <li>Adresă de contact / corespondență: nepublicată — nu este solicitată public de Apple/Google pentru o aplicație gratuită, fără monetizare (decizie de minimizare a datelor)</li>
   <li>E-mail de contact: contimac2024@gmail.com</li>
 </ul>
 <div class="legal-note">REQUIRES LEGAL REVIEW — dacă publicarea ca persoană fizică (fără PFA/SRL) a unei aplicații gratuite, fără monetizare, ridică vreo obligație de înregistrare fiscală sau de altă natură în România, este o întrebare care necesită verificare juridică punctuală, nu poate fi tranșată aici.</div>
@@ -76,7 +70,7 @@
 
 <h2>4. Permisiuni tehnice</h2>
 <p>Aplicația nu solicită permisiuni de cameră, microfon, locație, contacte, fotografii/galerie sau Bluetooth, pentru că nu are nevoie de ele pentru nicio funcție.</p>
-<p>Pe Android, sistemul de operare și platforma tehnică (Expo/React Native) pe care este construită Aplicația includ, la nivel de platformă, permisiunea generică de acces la internet (<code>INTERNET</code>), necesară doar în mediul de dezvoltare/testare al Aplicației. Aceasta nu este folosită de Aplicație pentru a transmite datele tale niciunde — comportamentul real, verificat, este că Aplicația nu inițiază nicio cerere de rețea către servere externe.</p>
+<p>Aplicația nu solicită și nu include permisiunea de acces la internet (<code>INTERNET</code>) în versiunea publicată pentru Android — acest lucru a fost verificat direct în manifestul aplicației incluse în pachetul trimis spre publicare. Aplicația nu inițiază nicio cerere de rețea către servere externe.</p>
 
 <h2>5. Copii de rezervă ale telefonului (backup)</h2>
 <p>Dacă sistemul de operare al telefonului tău (iOS/Android) sau un serviciu de backup pe care îl folosești tu (de exemplu iCloud sau Google) face în mod automat copii de rezervă ale datelor aplicațiilor instalate, datele Aplicației pot fi incluse în acel backup, ca parte din mecanismul general al telefonului tău — nu ca urmare a unei acțiuni separate a Aplicației. Acest comportament este controlat de setările contului tău de iCloud/Google, nu de Aplicație.</p>
@@ -107,7 +101,7 @@
 <p>Pentru întrebări legate de confidențialitate: contimac2024@gmail.com</p>
 
 <footer>
-  Document generat din <code>legal/POLITICA_DE_CONFIDENTIALITATE.md</code>. Sursa de adevăr rămâne fișierul Markdown din proiect. Publicat (Etapa 4) la https://seaduna.github.io/se-aduna-legal/privacy-policy.html.
+  © Alexandru Dan.
 </footer>
 
 </div>
