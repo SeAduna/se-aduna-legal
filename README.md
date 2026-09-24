@@ -18,4 +18,4 @@ Acest folder nu are legătură cu `webapp/`.
 
 ## Contact
 
-Operator: Alexandru Dan · contimac2024@gmail.com
+Operator: A Dan · OADsupport@gmail.com
