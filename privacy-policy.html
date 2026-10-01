@@ -6,55 +6,84 @@
 <title>Politica de confidențialitate — Se Adună</title>
 <meta name="robots" content="index,follow">
 <style>
-  :root{
-    --bg:#ffffff; --fg:#1a1a1a; --muted:#5c5c5c; --border:#e2e2e2;
-    --note-bg:#fff4d6; --note-border:#e0a400; --note-fg:#5a4300;
-    --legal-bg:#eef2ff; --legal-border:#5b6fd8; --legal-fg:#2b3a8f;
-  }
-  @media (prefers-color-scheme: dark){
-    :root{ --bg:#111214; --fg:#eaeaea; --muted:#a3a3a3; --border:#2c2d30;
-      --note-bg:#3a2e05; --note-border:#c98f00; --note-fg:#ffd980;
-      --legal-bg:#1b2140; --legal-border:#6b7fe8; --legal-fg:#b7c1f5; }
-  }
+  :root{ --bg:#ffffff; --fg:#1a1a1a; --muted:#5c5c5c; --border:#e2e2e2; }
+  @media (prefers-color-scheme: dark){ :root{ --bg:#111214; --fg:#eaeaea; --muted:#a3a3a3; --border:#2c2d30; } }
   body{ background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; margin:0; padding:0; }
   .wrap{ max-width:720px; margin:0 auto; padding:40px 20px 80px; }
   h1{ font-size:1.7rem; margin-bottom:4px; }
   h2{ font-size:1.2rem; margin-top:2.2em; border-top:1px solid var(--border); padding-top:1.2em; }
-  .meta{ color:var(--muted); font-size:0.9rem; margin-bottom:2em; }
-  .placeholder{ background:var(--note-bg); border:1px solid var(--note-border); color:var(--note-fg); padding:2px 6px; border-radius:4px; font-weight:600; font-size:0.95em; }
-  .legal-note{ background:var(--legal-bg); border-left:4px solid var(--legal-border); color:var(--legal-fg); padding:0.8em 1em; margin:1em 0; border-radius:0 6px 6px 0; font-size:0.95em; }
+  .meta{ color:var(--muted); font-size:0.9rem; margin-bottom:1.2em; }
+  .lang{ font-size:0.9rem; margin:0 0 1.6em; color:var(--muted); }
   ul{ padding-left:1.3em; }
+  li{ margin:0.4em 0; }
   a{ color:inherit; }
+  code{ font-size:0.95em; }
   footer{ color:var(--muted); font-size:0.85rem; margin-top:3em; border-top:1px solid var(--border); padding-top:1em; }
 </style>
 </head>
 <body>
 <div class="wrap">
 
+<p class="lang"><strong>Română</strong> · <a href="./privacy-policy-en.html">English</a> · <a href="./privacy-policy-es.html">Español</a></p>
 <h1>Politica de confidențialitate — Se Adună</h1>
+<p class="meta">Ultima actualizare: 26 septembrie 2026 · se aplică aplicației Se Adună versiunea 1.1.4</p>
 
-<p>Această Politică de confidențialitate descrie cum funcționează aplicația mobilă <strong>Se Adună</strong> („Aplicația") din perspectiva datelor utilizatorului. Aplicația este destinată calculului matematic al costului acumulat al unor obiceiuri de cheltuire, pe baza datelor introduse chiar de utilizator.</p>
+<p>Această Politică de confidențialitate descrie cum funcționează aplicația mobilă <strong>Se Adună</strong> („Aplicația”) din perspectiva datelor utilizatorului. Aplicația te ajută să vezi matematic cât te costă în timp obiceiurile de cheltuire, să îți urmărești bugetul și bonurile, să faci o pauză de reflecție înainte de o cumpărătură și să păstrezi amintirea lucrurilor pe care ai ales să nu le cumperi, pe baza datelor introduse chiar de tine.</p>
 
 <h2>1. Cine operează Aplicația</h2>
-<p>Aplicația este publicată de o persoană fizică, nu de o companie (SRL/PFA).</p>
+<p>Aplicația este publicată de o persoană fizică, nu de o companie.</p>
 <ul>
   <li>Nume operator: Alexandru Dan</li>
-  <li>Adresă de contact / corespondență: nepublicată — nu este solicitată public de Apple/Google pentru o aplicație gratuită, fără monetizare (decizie de minimizare a datelor)</li>
-  <li>E-mail de contact: contimac2024@gmail.com</li>
+  <li>Adresa poștală nu este afișată public; contactul se face prin e-mail</li>
+  <li>E-mail de contact: OADsupport@gmail.com</li>
 </ul>
-<div class="legal-note">REQUIRES LEGAL REVIEW — dacă publicarea ca persoană fizică (fără PFA/SRL) a unei aplicații gratuite, fără monetizare, ridică vreo obligație de înregistrare fiscală sau de altă natură în România, este o întrebare care necesită verificare juridică punctuală, nu poate fi tranșată aici.</div>
 
-<h2>2. Ce date colectăm</h2>
-<p>Aplicația <strong>nu are cont de utilizator, login, parolă sau e-mail obligatoriu</strong>. Nu există niciun server propriu, nicio bază de date online și nicio sincronizare în cloud.</p>
-<p>Datele pe care le introduci în Aplicație — denumirea unui obicei, prețul, frecvența, venitul lunar, cheltuielile, obiectivele de economisire — sunt <strong>stocate exclusiv local, pe dispozitivul tău</strong>, folosind mecanismul standard de stocare locală al sistemului de operare (AsyncStorage). Aceste date:</p>
+<h2>2. Ce date stochează Aplicația pe dispozitivul tău</h2>
+<p>Aplicația <strong>nu are cont de utilizator, login, parolă sau e-mail obligatoriu</strong>. Nu există niciun server propriu, nicio bază de date online și nicio sincronizare în cloud. Datele pe care le introduci sau le creezi în Aplicație sunt <strong>stocate exclusiv local, pe dispozitivul tău</strong>:</p>
 <ul>
-  <li>nu sunt transmise către niciun server al nostru, pentru că nu deținem niciun server;</li>
-  <li>nu sunt transmise către niciun terț;</li>
-  <li>nu sunt vizibile nouă în vreun fel — nu avem acces tehnic la ele.</li>
+  <li><strong>Obiceiuri:</strong> denumirea, prețul, frecvența, moneda și eventualele obiective de economisire;</li>
+  <li><strong>Buget:</strong> venitul lunar, cheltuielile și ținta de economisire;</li>
+  <li><strong>Bonurile mele:</strong> fotografia bonului și datele bonului (comerciant, dată, total, monedă), introduse de tine sau, pe iPhone, completate prin recunoașterea textului (vezi Secțiunea 4);</li>
+  <li><strong>Micro-Jurnal:</strong> o intrare pe zi, cu rezultatul ales dintr-o listă, un motiv opțional ales dintr-o listă și o sumă opțională; nu există text liber;</li>
+  <li><strong>Muncă Reală:</strong> venitul net lunar, orele lucrate pe săptămână și moneda, folosite pentru un calcul aritmetic;</li>
+  <li><strong>Cimitirul Regretelor:</strong> numele, prețul, moneda și data unei amintiri, un motiv opțional ales dintr-o listă și o fotografie opțională;</li>
+  <li><strong>Pauza de Impuls:</strong> suma și categoria introduse, răspunsurile la întrebări și alegerea ta <strong>nu sunt salvate</strong>; ele dispar când părăsești ecranul;</li>
+  <li><strong>Setări:</strong> limba și moneda aplicației.</li>
 </ul>
-<p><strong>Precizare importantă (distincție juridică):</strong> faptul că datele sunt stocate local, pe dispozitivul tău, nu înseamnă automat că „nu colectăm date" în sensul strict al reglementărilor de confidențialitate — înseamnă că <strong>noi, ca operator, nu colectăm și nu primim aceste date</strong>, pentru că ele nu părăsesc dispozitivul tău. Tu rămâi cel care deține și controlează fizic aceste date, pe propriul telefon.</p>
+<p>Datele text și numerice sunt păstrate cu mecanismul standard de stocare locală al aplicației (AsyncStorage), iar fotografiile ca fișiere în spațiul privat al Aplicației, separat pentru bonuri și pentru amintiri. Fotografiile nu sunt salvate în galeria telefonului. Aceste date:</p>
+<ul>
+  <li>nu sunt transmise către niciun server al operatorului, pentru că nu există niciun server;</li>
+  <li>nu sunt transmise către niciun terț;</li>
+  <li>nu sunt primite și nu sunt vizibile operatorului: acesta nu are acces tehnic la ele.</li>
+</ul>
+<p><strong>Distincție importantă:</strong> faptul că datele sunt stocate local nu înseamnă automat că nu există date personale. Înseamnă că <strong>operatorul nu primește și nu colectează</strong> aceste date, pentru că ele nu părăsesc dispozitivul prin Aplicație. Tu deții și controlezi datele pe propriul telefon.</p>
 
-<h2>3. Ce NU folosește Aplicația</h2>
+<h2>3. Camera și fotografiile</h2>
+<p>Aplicația folosește <strong>camera</strong> dispozitivului pentru patru funcții:</p>
+<ul>
+  <li>fotografierea unui <strong>bon</strong> (Bonurile mele);</li>
+  <li>fotografia <strong>opțională</strong> a unei amintiri (Cimitirul Regretelor);</li>
+  <li>recunoașterea live a unui <strong>preț</strong>, în modul Price Magic Box din Shopping Impuls;</li>
+  <li>recunoașterea live a unui <strong>obiect</strong>, în modul Recunoaștere produs din Shopping Impuls.</li>
+</ul>
+<p>Pentru Price Magic Box și Recunoaștere produs, fluxul live al camerei este folosit doar pentru procesare în timp real și <strong>nu este salvat</strong> ca fotografie sau înregistrare.</p>
+<p>Permisiunea pentru cameră este cerută de sistemul de operare atunci când alegi să faci o poză sau să pornești Shopping Impuls. O poți refuza sau revoca oricând din setările telefonului. Amintirile se pot salva și fără fotografie; adăugarea unui bon în aplicație pornește de la o fotografie, deci fără acces la cameră nu poți adăuga bonuri noi, și nici nu poți folosi Shopping Impuls.</p>
+<p>Aplicația <strong>nu accesează galeria sau biblioteca foto</strong> a telefonului și nu cere permisiunea aferentă. Nu cere permisiune de stocare, de microfon, de locație sau de contacte. Fotografiile făcute prin Aplicație sunt păstrate doar în spațiul privat al Aplicației.</p>
+
+<h2>4. Recunoașterea textului de pe bonuri (OCR)</h2>
+<ul>
+  <li><strong>iPhone (iOS):</strong> după ce faci poza unui bon, textul este recunoscut <strong>pe dispozitiv</strong>, prin funcția de recunoaștere a textului a sistemului iOS (Apple Vision). Imaginea și textul nu sunt trimise de Aplicație către niciun server; rezultatul apare în formular și îl poți corecta.</li>
+  <li><strong>Android:</strong> Aplicația nu recunoaște automat textul de pe bon. Datele bonului (comerciant, dată, total) le introduci tu manual.</li>
+</ul>
+
+<h2>5. Shopping Impuls: Price Magic Box și Recunoaștere produs</h2>
+<p>Shopping Impuls este un modul opțional al Pauzei de Impuls care folosește camera telefonului, live, pentru două funcții separate, fiecare cu propria tehnologie:</p>
+<p><strong>Price Magic Box (recunoaștere preț):</strong> recunoaște textul unui preț afișat pe o etichetă, direct pe dispozitiv — pe Android prin Google ML Kit Text Recognition, pe iPhone prin Apple Vision. Procesarea recunoașterii se face pe dispozitiv. Prețul detectat este folosit pentru afișarea și calculul local al orelor de muncă echivalente; Se Adună nu are server propriu și nu transmite prețul către un server propriu.</p>
+<p><strong>Recunoaștere produs:</strong> recunoaște un obiect din cadru, direct pe dispozitiv — pe Android prin Google Play Services for AR (ARCore) împreună cu Google ML Kit Object Detection, pe iPhone prin ARKit, RealityKit și Vision (Apple). Procesarea recunoașterii este locală. Nu folosim Cloud Anchors, nu folosim Geospatial API, nu folosim VPS sau orice formă de poziționare bazată pe locație; Aplicația nu solicită permisiunea de locație. Nu există cont sau server propriu pentru această funcție.</p>
+<p><strong>Precizare despre ML Kit:</strong> conform documentației oficiale Google, inputul și rezultatele ML Kit sunt procesate pe dispozitiv; ML Kit nu trimite inputul sau rezultatele către serverele Google. ML Kit poate comunica separat cu serviciile Google pentru funcțiile și documentarea sa, inclusiv actualizări de modele, compatibilitate hardware și metrici de performanță/utilizare.</p>
+<p><strong>Precizare despre ARCore / Google Play Services for AR:</strong> recunoașterea din această funcție nu folosește Cloud Anchors, Geospatial API sau poziționare bazată pe locație. Aplicația nu trimite imaginea camerei sau rezultatul recunoașterii către un server propriu. ARCore / Google Play Services for AR este o componentă Google și poate avea propriile procese de colectare și comunicare, conform documentației oficiale Google; nu facem aici o afirmație mai specifică despre exact ce date transmite ARCore decât ceea ce poate fi verificat din acea documentație. Funcția „Recunoaștere produs” include funcționalitate ARCore furnizată de Google: „This application runs on Google Play Services for AR (ARCore), which is provided by Google and governed by the Google Privacy Policy.” (citat de transparență; vezi și Setări → Legal și suport, în Aplicație).</p>
+
+<h2>6. Ce NU folosește Aplicația</h2>
 <p>Aplicația nu folosește și nu integrează:</p>
 <ul>
   <li>analytics sau măsurare a comportamentului de utilizare;</li>
@@ -64,44 +93,44 @@
   <li>acces la contul bancar sau la carduri;</li>
   <li>rețele sociale sau partajare automată;</li>
   <li>notificări push;</li>
-  <li>acces la cameră, microfon, locație, contacte sau agenda foto.</li>
+  <li>microfon, locație sau contacte;</li>
+  <li>acces la galeria foto.</li>
 </ul>
-<p>Aplicația nu are, la momentul acestei versiuni, o funcție proprie de distribuire ("Share"). Dacă vrei să arăți cuiva un rezultat, singura variantă este să faci o captură de ecran (screenshot) cu funcția standard a telefonului tău — asta e o acțiune a ta, în afara Aplicației, nu ceva ce face Aplicația.</p>
+<p>Cimitirul Regretelor are o funcție de distribuire: la cererea ta explicită, Aplicația poate compune local un card de distribuire folosind poza ta, prețul, data și, dacă există, motivul, iar apoi îl pune la dispoziție prin funcția de distribuire a telefonului către aplicația pe care o alegi tu. În anumite situații de fallback, poate fi distribuită fotografia originală și/sau un mesaj text. Se Adună nu transmite aceste date către un server propriu. Pentru restul rezultatelor din Aplicație, poți face o captură de ecran cu funcția standard a telefonului tău.</p>
 
-<h2>4. Permisiuni tehnice</h2>
-<p>Aplicația nu solicită permisiuni de cameră, microfon, locație, contacte, fotografii/galerie sau Bluetooth, pentru că nu are nevoie de ele pentru nicio funcție.</p>
-<p>Aplicația nu solicită și nu include permisiunea de acces la internet (<code>INTERNET</code>) în versiunea publicată pentru Android — acest lucru a fost verificat direct în manifestul aplicației incluse în pachetul trimis spre publicare. Aplicația nu inițiază nicio cerere de rețea către servere externe.</p>
+<h2>7. Permisiuni și rețea</h2>
+<p>Singura permisiune pe care Aplicația o cere în mod explicit este <strong>camera</strong>. Pe Android, permisiunea <code>INTERNET</code> este exclusă din Aplicație (verificat în manifestul pachetului); pachetul poate conține totuși permisiuni tehnice adăugate automat de componente standard (de exemplu citirea stării rețelei), care nu permit transmiterea de date. Aplicația nu inițiază cereri de rețea către servere externe și nu transmite conținutul tău către operator sau către terți. Modulele Shopping Impuls (Price Magic Box și Recunoaștere produs) folosesc librării Google (ML Kit, respectiv ARCore) care pot comunica separat cu serverele Google, independent de codul propriu al Aplicației — vezi Secțiunea 5.</p>
 
-<h2>5. Copii de rezervă ale telefonului (backup)</h2>
-<p>Dacă sistemul de operare al telefonului tău (iOS/Android) sau un serviciu de backup pe care îl folosești tu (de exemplu iCloud sau Google) face în mod automat copii de rezervă ale datelor aplicațiilor instalate, datele Aplicației pot fi incluse în acel backup, ca parte din mecanismul general al telefonului tău — nu ca urmare a unei acțiuni separate a Aplicației. Acest comportament este controlat de setările contului tău de iCloud/Google, nu de Aplicație.</p>
+<h2>8. Copii de rezervă ale telefonului (backup)</h2>
+<p>Copiile de rezervă sunt făcute de <strong>sistemul de operare sau de serviciul de backup al contului tău</strong> (de exemplu iCloud sau Google), nu de Aplicație, și nu reprezintă o trimitere de date către operator. În funcție de setările telefonului și ale contului tău, datele stocate local de Aplicație, <strong>inclusiv fotografiile bonurilor și ale amintirilor</strong>, pot fi incluse în acele copii de rezervă. Pe Android, Aplicația permite backup-ul automat al sistemului. Poți controla acest comportament din setările de backup ale telefonului sau ale contului.</p>
 
-<h2>6. Ștergerea datelor</h2>
-<p>Poți șterge datele introduse în Aplicație în orice moment:</p>
+<h2>9. Ștergerea datelor</h2>
 <ul>
-  <li>ștergând individual un obicei din Aplicație (funcție disponibilă în aplicație);</li>
-  <li>dezinstalând Aplicația de pe dispozitiv, ceea ce elimină toate datele stocate local de Aplicație, conform comportamentului standard al sistemului de operare pentru aplicațiile dezinstalate.</li>
+  <li><strong>Obiceiuri:</strong> poți șterge un obicei din Aplicație.</li>
+  <li><strong>Cimitirul Regretelor:</strong> poți șterge o amintire (după confirmare); ștergerea elimină și fotografia ei din dispozitiv.</li>
+  <li><strong>Bonuri:</strong> poți deschide un bon salvat și îl poți șterge definitiv (după confirmare); ștergerea elimină datele bonului din stocarea locală și fotografia lui din dispozitiv. Dacă anulezi un bon înainte de a-l salva, fotografia lui temporară este eliminată.</li>
+  <li><strong>Buget, Micro-Jurnal, Muncă Reală:</strong> îți poți modifica sau înlocui datele introduse.</li>
+  <li><strong>Dezinstalarea Aplicației</strong> elimină datele stocate local de Aplicație, conform comportamentului standard al sistemului de operare.</li>
 </ul>
-<p>Pentru că nu există o copie a datelor tale la noi, nu putem șterge noi ceva ce nu deținem — controlul este integral la tine.</p>
+<p>Copiile de rezervă făcute anterior de sistemul de operare sau de serviciul tău de backup nu sunt controlate de Aplicație; ele se gestionează din setările acelui serviciu. Operatorul nu deține o copie a datelor tale, deci nu poate șterge de la distanță ceva ce nu are.</p>
 
-<h2>7. Copii minori</h2>
-<p>Aplicația nu este direcționată special către copii și nu colectează în mod deliberat date despre minori (pentru că, de fapt, nu colectează date de la nimeni — vezi Secțiunea 2).</p>
-<div class="legal-note">REQUIRES LEGAL REVIEW — clasificarea de vârstă (age rating) pentru App Store/Google Play și eventualele obligații specifice privind utilizarea de către minori trebuie stabilite separat, în secțiunea de metadate ale magazinelor, nu doar în acest document.</div>
+<h2>10. Copii și minori</h2>
+<p>Aplicația nu este direcționată special către copii. Operatorul nu primește date de la utilizatori, inclusiv de la minori, pentru că datele rămân pe dispozitiv (vezi Secțiunea 2).</p>
 
-<h2>8. Temeiul legal și aplicabilitate GDPR</h2>
-<p>Aplicația este construită astfel încât să minimizeze colectarea de date (fără cont, fără server, fără transmitere). Această Politică descrie onest comportamentul tehnic real al Aplicației.</p>
-<div class="legal-note">REQUIRES LEGAL REVIEW — nu facem aici afirmația că Aplicația este „conformă GDPR" sau „100% legală". Dacă Regulamentul (UE) 2016/679 (GDPR) se aplică integral, parțial sau deloc unei aplicații care nu colectează și nu transmite date personale către operator, precum și orice obligații conexe (de exemplu, informarea utilizatorilor, drepturile persoanei vizate în măsura în care sunt aplicabile unor date pe care operatorul nu le deține fizic), reprezintă o chestiune care trebuie confirmată de un consultant juridic, nu poate fi declarată unilateral aici.</div>
+<h2>11. Cadrul legal</h2>
+<p>Aplicația este construită să limiteze datele: fără cont, fără server, fără transmitere de conținut către operator. Această Politică descrie comportamentul tehnic al Aplicației. Nu reprezintă o declarație de conformitate juridică sau un aviz juridic.</p>
 
-<h2>9. Politicile Apple și Google</h2>
-<p>Distribuirea Aplicației prin App Store și Google Play este supusă suplimentar politicilor de confidențialitate ale Apple, respectiv Google, inclusiv formularelor de declarare a practicilor de date (App Privacy / Data Safety), care trebuie completate separat, pe baza comportamentului real descris mai sus.</p>
+<h2>12. Magazinele de aplicații</h2>
+<p>Distribuirea prin App Store și Google Play este supusă și politicilor Apple, respectiv Google. Declarațiile de confidențialitate din magazine se bazează pe comportamentul descris în această Politică.</p>
 
-<h2>10. Modificări ale acestei politici</h2>
-<p>Dacă această Politică se modifică, versiunea actualizată va fi publicată la aceeași adresă, cu o dată de actualizare nouă.</p>
+<h2>13. Modificări ale acestei politici</h2>
+<p>Dacă această Politică se modifică, versiunea actualizată va fi publicată la aceeași adresă, cu o dată de actualizare nouă. Data curentă este afișată la începutul paginii.</p>
 
-<h2>11. Contact</h2>
-<p>Pentru întrebări legate de confidențialitate: contimac2024@gmail.com</p>
+<h2>14. Contact</h2>
+<p>Pentru întrebări legate de confidențialitate: OADsupport@gmail.com</p>
 
 <footer>
-  © Alexandru Dan.
+  © Alexandru Dan · Contact: <a href="mailto:OADsupport@gmail.com">OADsupport@gmail.com</a>
 </footer>
 
 </div>
